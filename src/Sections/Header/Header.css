@@ -1,0 +1,17 @@
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.header {
+	padding: 10px 0px;
+	background-color: #e5471f;
+	position: fixed;
+	width: 100%;
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

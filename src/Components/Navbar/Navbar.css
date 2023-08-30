@@ -1,0 +1,12 @@
+.nav-list {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-links {
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+}

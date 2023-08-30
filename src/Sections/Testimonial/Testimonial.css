@@ -1,0 +1,42 @@
+.testimonial .container {
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+}
+.testimonialImg {
+	position: absolute;
+	left: 0;
+}
+.testimonialRow {
+	text-align: center;
+	font-size: 32px;
+	line-height: 1.5;
+	color: #fff;
+	width: 600px;
+	position: relative;
+}
+.testimonialRow::before {
+	content: "";
+	background: url(../../Assets/Images/starting-commas.png) no-repeat center;
+	top: 0;
+	left: -24px;
+	height: 23px;
+	width: 23px;
+	position: absolute;
+}
+.testimonialRow::after {
+	content: "";
+	background: url(../../Assets/Images/closing-commas.png) no-repeat center;
+	top: 0;
+	right: -24px;
+	height: 23px;
+	width: 23px;
+	position: absolute;
+}
+.authorName {
+	display: block;
+	font-size: 16px;
+	line-height: 3;
+	color: #ffffff;
+	text-transform: uppercase;
+}
