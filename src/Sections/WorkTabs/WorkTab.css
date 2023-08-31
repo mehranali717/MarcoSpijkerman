@@ -1,0 +1,13 @@
+.workTabs .container {
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.buttonWrapper {
+	margin-bottom: 35px;
+}
+.thumbnailWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

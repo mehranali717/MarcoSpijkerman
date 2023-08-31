@@ -1,0 +1,13 @@
+.workList {
+	display: flex;
+	justify-content: space-between;
+}
+.workList li {
+	padding: 9px 16px;
+	font-size: 11px;
+	background-color: #f4f4f4;
+	text-transform: capitalize;
+}
+.tumbnailDetail {
+	padding: 15px;
+}

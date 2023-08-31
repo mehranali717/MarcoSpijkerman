@@ -1,0 +1,12 @@
+.workStates {
+	padding: 30px 0px;
+}
+.workStates .container {
+	justify-content: center;
+	flex-direction: column;
+}
+.workStateInner {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}

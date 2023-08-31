@@ -1,0 +1,14 @@
+.subTitle {
+	color: #fff;
+}
+.approachDetail {
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+.Approach {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 15px;
+}

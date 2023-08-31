@@ -4,3 +4,32 @@ li {
 	padding: 0;
 	list-style-type: none;
 }
+.sectionHeading {
+	text-transform: uppercase;
+	font-size: 50px;
+	color: #222;
+	line-height: 1;
+	padding: 25px 0px;
+}
+h1,
+h2,
+h3 {
+	margin: 0;
+	padding: 0;
+}
+.iconWraper {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.subTitle {
+	text-transform: capitalize;
+	font-size: 20px;
+	padding: 20px 0px;
+	line-height: 1;
+	color: #222;
+}

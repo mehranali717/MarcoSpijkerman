@@ -1,0 +1,16 @@
+.approach {
+	background-color: #e5471f;
+	padding: 30px 0px;
+}
+.approach .container {
+	justify-content: center;
+	flex-direction: column;
+}
+.sectionHeading {
+	color: #fff;
+}
+.ApproachWrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}

@@ -12,14 +12,12 @@ const Header = () => {
 		,
 	];
 	return (
-		<>
-			<header className="header">
-				<div className="container">
-					<Logo logo={"Marco Spijkerman"} />
-					<Navbar navItems={navItems} />
-				</div>
-			</header>
-		</>
+		<header className="header">
+			<div className="container">
+				<Logo logo={"Marco Spijkerman"} />
+				<Navbar navItems={navItems} />
+			</div>
+		</header>
 	);
 };
 export default Header;

@@ -1,5 +1,5 @@
 import "./Button.css";
-const Button = ({ buttontxt }) => {
-	return <button type="submit">{buttontxt}</button>;
+const Button = ({ btnTitle }) => {
+	return <button type="submit">{btnTitle}</button>;
 };
 export default Button;
