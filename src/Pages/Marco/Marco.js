@@ -102,14 +102,14 @@ const Marco = () => {
 	];
 	return (
 		<>
-			<Header />
-			<Banner />
-			<Services serviceData={serviceData} />
-			<Testimonial image={Spiderman} backgroundColor={"#e5471f"} />
-			<WorkTabs workTabData={workTabData} />
-			<Approach approachData={approachData} />
-			<WorkStates statsData={workStatsData} />
-			<Footer />
+			<Header /> {/*1 */}
+			<Banner /> {/*1 */}
+			<Services serviceData={serviceData} /> {/*2 */}
+			<Testimonial image={Spiderman} backgroundColor={"#e5471f"} /> {/*1 */}
+			<WorkTabs workTabData={workTabData} /> {/*3 */}
+			<Approach approachData={approachData} /> {/*2 */}
+			<WorkStates statsData={workStatsData} /> {/*2 */}
+			<Footer /> {/*0 */}
 		</>
 	);
 };
