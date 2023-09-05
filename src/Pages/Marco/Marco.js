@@ -16,21 +16,30 @@ import ApproachIcon2 from "../../Assets/Images/approach-icon-two.png";
 import ApproachIcon3 from "../../Assets/Images/approach-icon-three.png";
 import WorkStates from "../../Sections/WorkStates/WorkStates";
 import Footer from "../../Sections/Footer/Footer";
+import Section from "../../Sections/Section";
 const Marco = () => {
+	const servicesListItems = [
+		{ item: "Logo Design" },
+		{ item: "UI/UX Design" },
+		{ item: "Print Design" },
+		{ item: "Branding" },
+	];
 	const serviceData = [
 		{
 			icon: GraphicIcon,
 			heading: "Graphic Design",
 			backgroundColor: "#7a17a2",
+			servicesListItems:servicesListItems
 		},
-		{ icon: WebDesignIcon, heading: "Web Design", backgroundColor: "#ed6702" },
+		{ icon: WebDesignIcon, heading: "Web Design", backgroundColor: "#ed6702" ,servicesListItems:servicesListItems},
 		{
 			icon: WebDevelopmentIcon,
 			heading: "Web Development",
 			backgroundColor: "#cf5258",
+			servicesListItems:servicesListItems
 		},
-		{ icon: WordPressIcon, heading: "Wordpress", backgroundColor: "#289f5b" },
-		{ icon: EcomerceIcon, heading: "Ecommerce", backgroundColor: "#266dff" },
+		{ icon: WordPressIcon, heading: "Wordpress", backgroundColor: "#289f5b",servicesListItems:servicesListItems },
+		{ icon: EcomerceIcon, heading: "Ecommerce", backgroundColor: "#266dff" ,servicesListItems:servicesListItems},
 	];
 	const workList = [
 		{ value: "Code Igniter" },
@@ -91,10 +100,10 @@ const Marco = () => {
 	];
 	const stats = [
 		{ value: 50000 },
-		{ value: 50000 },
-		{ value: 50000 },
-		{ value: 50000 },
-		{ value: 50000 },
+		{ value: 45000 },
+		{ value: 35000 },
+		{ value: 65000 },
+		{ value: 37000 },
 	];
 	const workStatsData = [
 		{ subTitle: "PROFESSIONAL", stats: stats },
@@ -104,10 +113,12 @@ const Marco = () => {
 		<>
 			<Header /> {/*1 */}
 			<Banner /> {/*1 */}
-			<Services serviceData={serviceData} /> {/*2 */}
+			<Section sectionClassName="services" containerClassName="container" children={<Services serviceData={serviceData}/>}>
+			</Section>
+			{/* <Services> 2 */}
 			<Testimonial image={Spiderman} backgroundColor={"#e5471f"} /> {/*1 */}
 			<WorkTabs workTabData={workTabData} /> {/*3 */}
-			<Approach approachData={approachData} /> {/*2 */}
+			 {/*2 */}
 			<WorkStates statsData={workStatsData} /> {/*2 */}
 			<Footer /> {/*0 */}
 		</>

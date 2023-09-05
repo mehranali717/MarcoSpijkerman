@@ -1,4 +1,3 @@
-import Image from "../../Components/Image/Image";
 import "./Testimonial.css";
 const Testimonial = ({ image, backgroundColor }) => {
 	return (
@@ -7,7 +6,7 @@ const Testimonial = ({ image, backgroundColor }) => {
 			style={{ backgroundColor: backgroundColor }}
 		>
 			<div className="container">
-				<img src={image} className="testimonialImg" />
+				<img src={image} className="testimonialImg" alt="test"/>
 				<p className="testimonialRow">
 					A lot of times people don't know what they want until you show them.
 				</p>

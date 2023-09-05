@@ -12,9 +12,7 @@ const Service = ({ icon, listItems, heading, backgroundColor }) => {
 				</div>
 				<h3>{heading}</h3>
 				<ul className="serviceList">
-					{listItems.map((item) => {
-						return <li>{item.item}</li>;
-					})}
+					{listItems.map((item) =><li>{item.item}</li>)}
 				</ul>
 			</div>
 		</>

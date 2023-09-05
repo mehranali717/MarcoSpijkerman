@@ -9,7 +9,6 @@ const Header = () => {
 		},
 		{ title: "Work" },
 		{ title: "Contact" },
-		,
 	];
 	return (
 		<header className="header">

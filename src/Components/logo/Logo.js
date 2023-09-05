@@ -2,7 +2,7 @@ import "./Logo.css";
 const Logo = ({ logo }) => {
 	return (
 		<>
-			<a href="" className="logo">
+			<a href="#logo" className="logo">
 				{logo}
 			</a>
 		</>
